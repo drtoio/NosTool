@@ -1,0 +1,16 @@
+C:\Users\Charly\source\repos\NosTool\NosTool\bin\Debug\NosTool.exe.config
+C:\Users\Charly\source\repos\NosTool\NosTool\bin\Debug\NosTool.exe.manifest
+C:\Users\Charly\source\repos\NosTool\NosTool\bin\Debug\NosTool.application
+C:\Users\Charly\source\repos\NosTool\NosTool\bin\Debug\NosTool.exe
+C:\Users\Charly\source\repos\NosTool\NosTool\bin\Debug\NosTool.pdb
+C:\Users\Charly\source\repos\NosTool\NosTool\obj\Debug\NosTool.main_window.resources
+C:\Users\Charly\source\repos\NosTool\NosTool\obj\Debug\NosTool.parfum.resources
+C:\Users\Charly\source\repos\NosTool\NosTool\obj\Debug\NosTool.orateur.resources
+C:\Users\Charly\source\repos\NosTool\NosTool\obj\Debug\NosTool.Properties.Resources.resources
+C:\Users\Charly\source\repos\NosTool\NosTool\obj\Debug\NosTool.csproj.GenerateResource.Cache
+C:\Users\Charly\source\repos\NosTool\NosTool\obj\Debug\NosTool.csproj.CoreCompileInputs.cache
+C:\Users\Charly\source\repos\NosTool\NosTool\obj\Debug\NosTool.exe.manifest
+C:\Users\Charly\source\repos\NosTool\NosTool\obj\Debug\NosTool.application
+C:\Users\Charly\source\repos\NosTool\NosTool\obj\Debug\NosTool.exe
+C:\Users\Charly\source\repos\NosTool\NosTool\obj\Debug\NosTool.pdb
+C:\Users\Charly\source\repos\NosTool\NosTool\obj\Debug\NosTool.csprojResolveAssemblyReference.cache
