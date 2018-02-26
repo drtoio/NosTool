@@ -162,6 +162,7 @@
             this.Controls.Add(this.check_rappelCI);
             this.Controls.Add(this.orateur);
             this.Controls.Add(this.parfum);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "main_window";

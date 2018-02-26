@@ -107,6 +107,7 @@
             this.Controls.Add(this.lvl_parfum);
             this.Controls.Add(this.rare_parfum);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "parfum";

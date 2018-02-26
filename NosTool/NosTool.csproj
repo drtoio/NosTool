@@ -213,6 +213,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="nosTool.ico" />
+    <None Include="Resources\upspfond.jpg" />
     <None Include="Resources\SP.jpg" />
     <EmbeddedResource Include="Resources\build.swf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
