@@ -270,7 +270,8 @@ namespace NosTool
             
             heureBateau1.Text = (Convert.ToString(DateTime.Now.Hour)) + ':' + (Convert.ToString(DateTime.Now.Minute));
 
-            prochainBateau.Text = (Convert.ToString(heureProchain)) + ':' + (Convert.ToString(minuteProchain));                                    
+            prochainBateau.Text = (Convert.ToString(heureProchain)) + ':' + (Convert.ToString(minuteProchain));       
+            
         }
     }
 }
