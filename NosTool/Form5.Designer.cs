@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(bateau));
             this.bateauTimer = new System.Windows.Forms.Timer(this.components);
             this.heureBateau1 = new System.Windows.Forms.TextBox();
             this.prochainBateau = new System.Windows.Forms.TextBox();
@@ -92,6 +93,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.prochainBateau);
             this.Controls.Add(this.heureBateau1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "bateau";
             this.Text = "Prochain bateau ?";
             this.ResumeLayout(false);

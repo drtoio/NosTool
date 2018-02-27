@@ -50,7 +50,7 @@
             this.orateurText.Name = "orateurText";
             this.orateurText.Size = new System.Drawing.Size(356, 20);
             this.orateurText.TabIndex = 0;
-            this.orateurText.Text = "Text à copier";
+            this.orateurText.Text = "Texte à copier";
             // 
             // generalText
             // 
@@ -59,7 +59,7 @@
             this.generalText.Name = "generalText";
             this.generalText.Size = new System.Drawing.Size(356, 20);
             this.generalText.TabIndex = 1;
-            this.generalText.Text = "Text à copier";
+            this.generalText.Text = "Texte à copier";
             // 
             // pictureBox1
             // 
@@ -128,7 +128,7 @@
             this.orateurText2.Name = "orateurText2";
             this.orateurText2.Size = new System.Drawing.Size(356, 20);
             this.orateurText2.TabIndex = 6;
-            this.orateurText2.Text = "Text à copier";
+            this.orateurText2.Text = "Texte à copier";
             // 
             // orateur
             // 
