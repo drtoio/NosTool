@@ -205,8 +205,8 @@ namespace NosTool
 
         private void bateau_Click(object sender, EventArgs e)
         {
-            simulateurPointSP simu1 = new simulateurPointSP();
-            simu1.Show();
+            bateau bateau1 = new bateau();
+            bateau1.Show();
         }
 
         private void rappelCali_CheckedChanged(object sender, EventArgs e)

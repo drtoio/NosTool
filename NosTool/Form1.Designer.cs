@@ -109,10 +109,10 @@
             // 
             this.upsp.BackColor = System.Drawing.Color.Transparent;
             this.upsp.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.upsp.Image = global::NosTool.Properties.Resources.SP;
-            this.upsp.Location = new System.Drawing.Point(188, 153);
+            this.upsp.Image = global::NosTool.Properties.Resources.bateau;
+            this.upsp.Location = new System.Drawing.Point(32, 255);
             this.upsp.Name = "upsp";
-            this.upsp.Size = new System.Drawing.Size(100, 96);
+            this.upsp.Size = new System.Drawing.Size(166, 95);
             this.upsp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.upsp.TabIndex = 5;
             this.upsp.TabStop = false;
@@ -139,10 +139,10 @@
             this.upsp2.BackColor = System.Drawing.Color.Transparent;
             this.upsp2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.upsp2.Image = global::NosTool.Properties.Resources.SP;
-            this.upsp2.Location = new System.Drawing.Point(36, 153);
+            this.upsp2.Location = new System.Drawing.Point(32, 153);
             this.upsp2.Name = "upsp2";
-            this.upsp2.Size = new System.Drawing.Size(100, 96);
-            this.upsp2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.upsp2.Size = new System.Drawing.Size(104, 96);
+            this.upsp2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.upsp2.TabIndex = 7;
             this.upsp2.TabStop = false;
             this.upsp2.Click += new System.EventHandler(this.upsp2_Click);

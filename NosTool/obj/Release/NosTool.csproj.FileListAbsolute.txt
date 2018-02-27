@@ -13,7 +13,7 @@ C:\Users\Charly\source\repos\NosTool\NosTool\obj\Release\NosTool.main_window.res
 C:\Users\Charly\source\repos\NosTool\NosTool\obj\Release\NosTool.parfum.resources
 C:\Users\Charly\source\repos\NosTool\NosTool\obj\Release\NosTool.orateur.resources
 C:\Users\Charly\source\repos\NosTool\NosTool\obj\Release\NosTool.benefCalc.resources
-C:\Users\Charly\source\repos\NosTool\NosTool\obj\Release\NosTool.simulateurPointSP.resources
+C:\Users\Charly\source\repos\NosTool\NosTool\obj\Release\NosTool.bateau.resources
 C:\Users\Charly\source\repos\NosTool\NosTool\obj\Release\NosTool.upsp2.resources
 C:\Users\Charly\source\repos\NosTool\NosTool\obj\Release\NosTool.Properties.Resources.resources
 C:\Users\Charly\source\repos\NosTool\NosTool\obj\Release\NosTool.csproj.GenerateResource.Cache
@@ -22,3 +22,4 @@ C:\Users\Charly\source\repos\NosTool\NosTool\obj\Release\NosTool.exe.manifest
 C:\Users\Charly\source\repos\NosTool\NosTool\obj\Release\NosTool.application
 C:\Users\Charly\source\repos\NosTool\NosTool\obj\Release\NosTool.exe
 C:\Users\Charly\source\repos\NosTool\NosTool\obj\Release\NosTool.pdb
+C:\Users\Charly\source\repos\NosTool\NosTool\obj\Release\NosTool.csprojResolveAssemblyReference.cache
