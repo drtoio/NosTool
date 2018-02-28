@@ -38,6 +38,7 @@
             this.copierOrateur2 = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.orateurText2 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -130,6 +131,15 @@
             this.orateurText2.TabIndex = 6;
             this.orateurText2.Text = "Texte à copier";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(9, 303);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(156, 13);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "Développé par Illmatar / DrToio";
+            // 
             // orateur
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -137,6 +147,7 @@
             this.BackgroundImage = global::NosTool.Properties.Resources.fond1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(458, 325);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.copierOrateur2);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.orateurText2);
@@ -171,5 +182,6 @@
         private System.Windows.Forms.Button copierOrateur2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.TextBox orateurText2;
+        private System.Windows.Forms.Label label1;
     }
 }

@@ -35,6 +35,7 @@
             this.prochainBateau = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // bateauTimer
@@ -47,16 +48,20 @@
             this.heureBateau1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.heureBateau1.Location = new System.Drawing.Point(136, 33);
             this.heureBateau1.Name = "heureBateau1";
+            this.heureBateau1.ReadOnly = true;
             this.heureBateau1.Size = new System.Drawing.Size(100, 29);
             this.heureBateau1.TabIndex = 0;
+            this.heureBateau1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // prochainBateau
             // 
             this.prochainBateau.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.prochainBateau.Location = new System.Drawing.Point(136, 116);
             this.prochainBateau.Name = "prochainBateau";
+            this.prochainBateau.ReadOnly = true;
             this.prochainBateau.Size = new System.Drawing.Size(100, 29);
             this.prochainBateau.TabIndex = 1;
+            this.prochainBateau.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label1
             // 
@@ -82,6 +87,15 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Heure prochain bateau :";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(207, 243);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(156, 13);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Développé par Illmatar / DrToio";
+            // 
             // bateau
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -89,6 +103,7 @@
             this.BackgroundImage = global::NosTool.Properties.Resources._20180225_3_Illmatar;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(375, 265);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.prochainBateau);
@@ -97,6 +112,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "bateau";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Prochain bateau ?";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -110,5 +126,6 @@
         private System.Windows.Forms.TextBox prochainBateau;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }

@@ -50,7 +50,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>RS4QWCCry5T/rtdfAht4fDACpRuh0ZYToVPnlTKmM9Y=</dsig:DigestValue>
+        <dsig:DigestValue>ztBKZSQePe6zWEI7SODGylZyxHcBRwECrCKZzfpSLhg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,19 +62,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>g2+uLVq5wbZx0TKwJVVHprTO8riWeZqFN+zXUpvhSfg=</dsig:DigestValue>
+        <dsig:DigestValue>kQzxKYwvstqjla2G1YeYfHr8oNJZYp7/FAuSU4Cx5iA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NosTool.exe" size="5898728">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NosTool.exe" size="6009832">
       <assemblyIdentity name="NosTool" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>LBq5mZv5gVJJRQS6AUd5NfJ3iupYGtaniCmoKc33sLw=</dsig:DigestValue>
+        <dsig:DigestValue>AuxmlcUWVG213qSGNXaB8MzjNpKVZm611h6XG4L5mnM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

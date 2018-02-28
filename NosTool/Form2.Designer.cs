@@ -32,6 +32,7 @@
             this.rare_parfum = new System.Windows.Forms.ComboBox();
             this.lvl_parfum = new System.Windows.Forms.ComboBox();
             this.nb_parfum = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // rare_parfum
@@ -95,6 +96,15 @@
             this.nb_parfum.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.nb_parfum.TextChanged += new System.EventHandler(this.nb_parfum_TextChanged);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(116, 239);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(156, 13);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "Développé par Illmatar / DrToio";
+            // 
             // parfum
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -103,6 +113,7 @@
             this.BackgroundImage = global::NosTool.Properties.Resources.fond1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.nb_parfum);
             this.Controls.Add(this.lvl_parfum);
             this.Controls.Add(this.rare_parfum);
@@ -124,5 +135,6 @@
         private System.Windows.Forms.ComboBox rare_parfum;
         private System.Windows.Forms.ComboBox lvl_parfum;
         private System.Windows.Forms.TextBox nb_parfum;
+        private System.Windows.Forms.Label label1;
     }
 }

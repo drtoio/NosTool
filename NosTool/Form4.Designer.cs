@@ -48,6 +48,7 @@
             this.calcul = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.maquereau)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.geante)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.potionMagique)).BeginInit();
@@ -261,6 +262,15 @@
             this.label2.TabIndex = 18;
             this.label2.Text = "Il faut indiquer les prix à l\'unité au NosBazar.";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(610, 416);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(156, 13);
+            this.label3.TabIndex = 19;
+            this.label3.Text = "Développé par Illmatar / DrToio";
+            // 
             // benefCalc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -268,6 +278,7 @@
             this.BackgroundImage = global::NosTool.Properties.Resources.fond2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(778, 438);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.calcul);
@@ -324,5 +335,6 @@
         private System.Windows.Forms.Button calcul;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }

@@ -38,6 +38,7 @@
             this.upsp = new System.Windows.Forms.PictureBox();
             this.rappelCali = new System.Windows.Forms.CheckBox();
             this.upsp2 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.parfum)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.orateur)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -147,6 +148,15 @@
             this.upsp2.TabStop = false;
             this.upsp2.Click += new System.EventHandler(this.upsp2_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(310, 435);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(156, 13);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Développé par Illmatar / DrToio";
+            // 
             // main_window
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -155,6 +165,7 @@
             this.BackgroundImage = global::NosTool.Properties.Resources.fond1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(484, 461);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.upsp2);
             this.Controls.Add(this.rappelCali);
             this.Controls.Add(this.upsp);
@@ -188,6 +199,7 @@
         private System.Windows.Forms.PictureBox upsp;
         private System.Windows.Forms.CheckBox rappelCali;
         private System.Windows.Forms.PictureBox upsp2;
+        private System.Windows.Forms.Label label1;
     }
 }
 
